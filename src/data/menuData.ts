@@ -4,6 +4,7 @@ export interface Product {
   description: string;
   price: number;
   available: boolean;
+  image?: string; 
 }
 
 export interface MenuCategory {
@@ -23,6 +24,7 @@ export const menuData: MenuCategory[] = [
         description: 'Classic pizza with tomato sauce, mozzarella, and basil',
         price: 8.99,
         available: true,
+        image:'./assets/Pizza1.jpg',
       },
       {
         id: '1be48f7f-1052-42dc-80b7-607ba8a34a7a',
@@ -30,6 +32,7 @@ export const menuData: MenuCategory[] = [
         description: 'Tomato sauce, mozzarella, and pepperoni',
         price: 10.99,
         available: false,
+        image:'./assets/Pizza2.jpg',
       },
     ],
   },
@@ -42,7 +45,8 @@ export const menuData: MenuCategory[] = [
         name: 'Classic Beef Burger',
         description: 'Beef patty, lettuce, tomato, onion, and cheese',
         price: 7.5,
-        available: true,
+        available: false,
+        image:'./assets/Burger1.jpg',
       },
       {
         id: 'eb9bda67-2f1b-4a8e-b45a-58b8362f25ed',
@@ -50,6 +54,7 @@ export const menuData: MenuCategory[] = [
         description: 'Grilled veggie patty, avocado, tomato, and vegan mayo',
         price: 6.75,
         available: true,
+        image:'./assets/Burger2.jpg',
       },
     ],
   },
@@ -63,6 +68,7 @@ export const menuData: MenuCategory[] = [
         description: 'Chilled 330ml can',
         price: 1.5,
         available: true,
+        image:'./assets/Cola.jpg',
       },
       {
         id: '39f3ae77-0a70-4c7b-8d8d-cf84c2e5f08d',
@@ -70,6 +76,7 @@ export const menuData: MenuCategory[] = [
         description: 'Fresh homemade lemonade with mint',
         price: 2.0,
         available: true,
+        image:'./assets/Limonada.jpg',
       },
     ],
   },

@@ -1,14 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Menu from "./pages/Menu";
+import { Routes, Route } from 'react-router-dom'
+import { CartProvider } from './components/CartContext'
+import Menu from './pages/Menu'
+import Home from './pages/Home'
 
-function App() {
+const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/menu" element={<Menu />} />
-    </Routes>
-  );
+    <CartProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+    </CartProvider>
+  )
 }
 
-export default App;
+export default App
