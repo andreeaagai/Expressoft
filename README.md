@@ -10,6 +10,10 @@
 This project is a simplified **Digital Menu App** built with **ReactJS**. It's meant to simulate a food ordering interface for a restaurant. This version is provided as a **starter template** for candidates undergoing front-end technical evaluation.
 
 ---
+## Live Demo
+[[Click aici pentru demo live] [(https://expressoft-q7vk.vercel.app/)](https://expressoft-q7vk.vercel.app/)
+
+---
 
 ## Funcționalități principale
 - Afișarea meniului pe categorii (Pizza, Burgers, Drinks)  
